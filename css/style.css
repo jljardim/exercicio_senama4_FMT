@@ -1,0 +1,114 @@
+* {
+  color: cornflowerblue;
+  font-weight: bolder;
+}
+#container {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  background: rgb(1, 2, 9);
+  background: radial-gradient(
+    circle,
+    rgba(1, 2, 9, 1) 0%,
+    rgba(63, 75, 88, 1) 72%
+  );
+  height: 730px;
+}
+#section_header {
+  margin: 200px 0 0 30px;
+  box-shadow: 0px 5px 25px white;
+  border: 2px solid whitesmoke;
+  height: 250px;
+  width: 550px;
+}
+#section_header,
+h1 {
+  font-size: 40px;
+  color: whitesmoke;
+}
+#section_header,
+p,
+span {
+  font-size: 25px;
+  color: whitesmoke;
+}
+.button {
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 30px;
+  color: blue;
+  border: 2px solid cornflowerblue;
+  box-shadow: 1px 5px 30px white;
+}
+.button:hover {
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+  border: 3px solid blue;
+  box-shadow: 1px 5px 30px blue;
+}
+label {
+  font-size: 18px;
+}
+.input {
+  border: 2px solid whitesmoke;
+  width: 290px;
+  height: 40px;
+  margin: 10px 0 0 65px;
+  background: rgb(1, 2, 9);
+  background: radial-gradient(
+    circle,
+    rgba(1, 2, 9, 1) 0%,
+    rgba(63, 75, 88, 1) 72%
+  );
+  box-shadow: 0px 10px 30px white;
+  text-align: center;
+  font-size: 25px;
+  color: whitesmoke;
+}
+#container_calculadora {
+  height: 450px;
+  width: 450px;
+  background: rgb(1, 2, 9);
+  background: radial-gradient(
+    circle,
+    rgba(1, 2, 9, 1) 0%,
+    rgba(63, 75, 88, 1) 72%
+  );
+  border: 2px solid whitesmoke;
+  margin: 70px 0 0 20px;
+  padding: 15px;
+  box-shadow: 0px 10px 30px white;
+  display: flex;
+  flex-direction: column;
+}
+#container_btn {
+  width: 300px;
+  height: 100px;
+  margin: 15px 15px 15px 62px;
+  padding: 20px 0 0 0;
+  font-size: 20px;
+}
+fieldset {
+  width: 140px;
+  height: 30px;
+}
+#btn_calcular {
+  margin: 20px 0px 20px 140px;
+  border-radius: 10px;
+  border: 1px solid cornflowerblue;
+  background-color: aliceblue;
+  width: 150px;
+  height: 35px;
+}
+#resultado {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 0 95px;
+  border: 2px solid #f3e4e4;
+  width: 200px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/script.js" defer></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <section id="container">
+      <header>
+        <section id="section_header">
+          <h1>Calculadora</h1>
+          <p>Uma Calculadora para realizar operações basicas</p>
+          <span>Ex: (Multiplicação - Divisão - Adição - Subtração)</span>
+        </section>
+      </header>
+      <br />
+      <main>
+        <section id="container_calculadora">
+          <label for="number_one">Digite o primeiro numero</label>
+          <input type="number" id="number_one" class="input" />
+          <fieldset id="container_btn">
+            <legend>Operações</legend>
+            <button class="button" id="multiplicacao" value="*">*</button>
+            <button class="button" id="divisao" value="/">/</button>
+            <button class="button" id="adicao" value="+">+</button>
+            <button class="button" id="subtracao" value="-">-</button>
+          </fieldset>
+          <label for="number_two">Digite o primeiro numero</label>
+          <input type="number" id="number_two" class="input" />
+          <button id="btn_calcular" onclick="calcular()">Calcular</button>
+          <fieldset id="resultado">
+            <legend>Resultado</legend>
+          </fieldset>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
